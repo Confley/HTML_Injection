@@ -1,25 +1,26 @@
-# HTML_Injection
-Proyecto de prueba para probar las vulnerabilidades de HTML Injection - Para la clase :3 
+# HTML Injection
 
-##Estructura de la BD
-BD: injection_bd
+Proyecto de prueba para demostrar las vulnerabilidades de HTML Injection - Para la clase :3 
 
-Table: comentarios
- - ID (11) 
- - Usuario (20)	
- - Comentario (255) 
+## Estructura de la base de datos
 
-##Pasos a seguir
-Descargar la rama (.zip) 
+- Base de datos: injection_bd
+- Tabla: comentarios
+  - ID (11)
+  - Usuario (20)
+  - Comentario (255)
 
-La carpeta práctica ponerla dentro de su servidor local
-	En mi caso: C:\xampp\htdocs\injection
+## Pasos a seguir
 
-Crear una nueva base de datos llamada 'injection_bd'
+1. Descarga la rama (.zip) del proyecto.
 
-Después importamos el archivo 'comentarios.sql' en la base de datos que acabamos de crear
+2. Coloca la carpeta `practica` dentro de tu servidor local. Por ejemplo, en XAMPP la ruta sería: `C:\xampp\htdocs\injection`.
 
-Ahora accedemos a nuestro servidor al archivo index.php
-	En mi caso: http://localhost/injection/practica/index.php
+3. Crea una nueva base de datos llamada `injection_bd`.
 
-Ya podemos iniciar con la práctica 
+4. Importa el archivo `comentarios.sql` en la base de datos que acabas de crear.
+
+5. Accede al archivo `index.php` en tu servidor local. Por ejemplo, en XAMPP sería: `http://localhost/injection/practica/index.php`.
+
+6. ¡Ya puedes comenzar con la práctica y explorar las vulnerabilidades de HTML Injection!
+
