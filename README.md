@@ -26,6 +26,6 @@ Proyecto de prueba para demostrar las vulnerabilidades de HTML Injection - Para 
 
 ## Etiquetas de prueba
 
-<input class="form-control" placeholder="Filtrar" style="position: absolute; top: 275px; right: 120px; width: 300px"/>
+`<input class="form-control" placeholder="Filtrar" style="position: absolute; top: 275px; right: 120px; width: 300px"/>`
 
-<button class="btn btn-danger" onclick="window.location.href=`(dirección_malvada)`;" style="position: absolute; top: 275px; right: 45px"> Filtrar </button>
+`<button class="btn btn-danger" onclick="window.location.href=`(dirección_malvada)`;" style="position: absolute; top: 275px; right: 45px"> Filtrar </button>`
